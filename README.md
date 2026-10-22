@@ -97,8 +97,8 @@ with other conventions present on the same node, as recommended by the spec.
         "zarr_conventions": [
             {
                 "uuid": "c906c423-56ed-413c-9943-7b2ff52d18f2",
-                "schema_url": "https://raw.githubusercontent.com/DOES_NOT_EXIST/zarr-convention-categorical/refs/tags/v1/schema.json",
-                "spec_url": "https://github.com/DOES_NOT_EXIST/zarr-convention-categorical/blob/v1/README.md",
+                "schema_url": "https://raw.githubusercontent.com/scverse/zarr-convention-categorical/refs/tags/v1/schema.json",
+                "spec_url": "https://github.com/scverse/zarr-convention-categorical/blob/v1/README.md",
                 "name": "enum:",
                 "description": "Dictionary-encoded enum array: integer codes indexing into a values array."
             }
@@ -109,10 +109,8 @@ with other conventions present on the same node, as recommended by the spec.
 }
 ```
 
-> The `schema_url` / `spec_url` above point at a `v1` tag of a yet-to-be-named-organization-owned
-> repository as a worked default. This will be udpated when we publish this
-> convention for the first time; per the spec, `uuid` is the stable identifier and the URLs are
-> resolution hints.
+> The `schema_url` / `spec_url` above point at a `v1` tag that does not exist yet.
+> This will be updated once the spec is first released.
 
 ## Reading an enum
 
